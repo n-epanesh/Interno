@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" href="css/simple-adaptive-slider.css" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,17 +42,77 @@
       </div>
     </header>
 
-    <section class="intro" style="background-image: url(img/banner.jpg)">
-      <div class="container">
-        <div class="intro_content">
-          <div class="intro_text">
-            <h1 class="intro_title">Let's Create Your Dream Interior</h1>
-            <p class="intro_decsr">
-              The world needs innovators and problem solvers who turn
-            </p>
-            <p class="intro_decsr">challenges into greater opportunities.</p>
-            <button class="intro_btn">Get Started</button>
+    <section id="slider_bl">
+      <div class="wrapper">
+        <input checked type="radio" name="slider" id="slide1" />
+        <input type="radio" name="slider" id="slide2" />
+        <input type="radio" name="slider" id="slide3" />
+        <input type="radio" name="slider" id="slide4" />
+        <div class="slider-wrapper">
+          <div class="inner">
+            <article>
+              <div class="info top-left">
+                <h1 class="intro_title">Let's Create Your Dream Interior</h1>
+                <p class="intro_decsr">
+                  The world needs innovators and problem solvers who turn
+                </p>
+                <p class="intro_decsr">
+                  challenges into greater opportunities.
+                </p>
+                <button class="intro_btn">Get Started</button>
+              </div>
+              <img src="img/banner_1.jpg" />
+            </article>
+            <article>
+              <div class="info top-left">
+                <h1 class="intro_title">Let's Create Your Dream Interior</h1>
+                <p class="intro_decsr">
+                  The world needs innovators and problem solvers who turn
+                </p>
+                <p class="intro_decsr">
+                  challenges into greater opportunities.
+                </p>
+                <button class="intro_btn">Get Started</button>
+              </div>
+
+              <img src="img/banner_2.jpg" />
+            </article>
+            <article>
+              <div class="info top-left">
+                <h1 class="intro_title">Let's Create Your Dream Interior</h1>
+                <p class="intro_decsr">
+                  The world needs innovators and problem solvers who turn
+                </p>
+                <p class="intro_decsr">
+                  challenges into greater opportunities.
+                </p>
+                <button class="intro_btn">Get Started</button>
+              </div>
+
+              <img src="img/banner_3.jpg" />
+            </article>
+            <article>
+              <div class="info top-left">
+                <h1 class="intro_title">Let's Create Your Dream Interior</h1>
+                <p class="intro_decsr">
+                  The world needs innovators and problem solvers who turn
+                </p>
+                <p class="intro_decsr">
+                  challenges into greater opportunities.
+                </p>
+                <button class="intro_btn">Get Started</button>
+              </div>
+
+              <img src="img/banner_4.jpg" />
+            </article>
           </div>
+        </div>
+
+        <div class="slider-dot-control">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
         </div>
       </div>
     </section>
