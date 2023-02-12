@@ -761,7 +761,11 @@
 
   .reset_col {
     padding-top: 42px;
-    padding-left: 25px;
+    padding-left: 17px;
+  }
+
+  .banner {
+    margin-left: 10px;
   }
 
   .menu_link {
@@ -886,6 +890,7 @@
 
   .blog_border {
     margin-left: -29px;
+    top: -92px;
   }
 
   .banner_btn {
