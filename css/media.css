@@ -725,6 +725,189 @@
   }
 }
 
+@media (max-width: 414px) {
+  .header_logo_img {
+    width: 101px;
+    height: 33px;
+  }
+
+  .menu_link {
+    margin-right: 8px;
+    font-size: 12px;
+  }
+
+  .intro {
+    height: 302px;
+    border-radius: 0 0 0 114px;
+  }
+
+  .intro_title {
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: -198px;
+    padding-bottom: 24px;
+  }
+
+  .intro_btn {
+    font-size: 12px;
+    padding: 4px 16px;
+    border-radius: 5px;
+  }
+
+  .about_title {
+    font-size: 18px;
+    line-height: 19px;
+    width: 0;
+  }
+
+  .about_decsr {
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 12px;
+  }
+
+  .about_btn {
+    font-size: 16px;
+  }
+
+  .info_title {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 8px;
+  }
+
+  .header_wrapper {
+    height: 58px;
+  }
+
+  .yu {
+    display: none;
+  }
+
+  .info__img {
+    width: 219px;
+    height: 263px;
+  }
+
+  .info_btn {
+    font-size: 14px;
+  }
+
+  .info_btn {
+    padding: 10px 20px;
+    margin-top: -4px;
+
+    border-radius: 6px;
+  }
+
+  .reviews_title {
+    font-size: 30px;
+    padding-top: 28px;
+  }
+
+  .reviews_title_2 {
+    font-size: 30px;
+  }
+
+  .reviews_container {
+    border-radius: 17px;
+    height: 483px;
+  }
+
+  .section_logo_img {
+    margin-top: 83px;
+    margin-bottom: 65px;
+    margin-left: 30px;
+  }
+
+  .reset_title {
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+
+  .reset_descr {
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 310px;
+    margin-left: 27px;
+    margin-top: -14px;
+  }
+
+  .reset_colo_img {
+    width: 337px;
+    height: 362px;
+  }
+
+  .reset_btn {
+    margin-left: 1px;
+    top: -62px;
+  }
+
+  .blog {
+    margin-top: -94px;
+  }
+
+  .blog_container {
+    margin-left: -45px;
+  }
+
+  .blog_border {
+    margin-left: -29px;
+  }
+
+  .banner_btn {
+    font-size: 14px;
+    padding: 11px 33px;
+    border-radius: 10px;
+    margin-left: -396px;
+  }
+
+  .banner_title {
+    line-height: 35px;
+  }
+
+  .footer_logo_img {
+    width: 101px;
+    height: 33px;
+  }
+
+  .footer_title {
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+
+  .footer_descr {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .footer {
+    margin-top: 34px;
+  }
+
+  .footer_network {
+    width: 24px;
+    height: 16px;
+  }
+
+  .footer_botder_descr {
+    font-size: 12px;
+  }
+
+  .footer_border {
+    margin-bottom: 20px;
+    margin-top: -35px;
+  }
+
+  .footer_botder_descr {
+    padding-bottom: 9px;
+  }
+
+  .footer_coloum {
+    padding-right: 34px;
+  }
+}
+
 @media (max-width: 390px) {
   .header_logo_img {
     width: 101px;
