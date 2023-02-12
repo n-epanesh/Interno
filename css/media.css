@@ -731,13 +731,18 @@
     height: 33px;
   }
 
+  .reset_col {
+    padding-top: 42px;
+    padding-left: 25px;
+  }
+
   .menu_link {
     margin-right: 8px;
     font-size: 12px;
   }
 
   .intro {
-    height: 302px;
+    height: 340px;
     border-radius: 0 0 0 114px;
   }
 
